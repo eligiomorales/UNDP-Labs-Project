@@ -140,3 +140,12 @@ UNION
 SELECT id, image_9
 FROM es_map
 WHERE image_9 is not null);--create table relacionando el id de la solucion con todas las sdg tags
+
+
+CREATE TABLE IF NOT EXISTS link_img 
+(
+    link_img character varying(50)
+);
+
+COPY link_img FROM PROGRAM 'curl "https://docs.google.com/spreadsheets/d/1CaKaaGNv2FKCPoKTTyxrCNeqU_yqYJqdiARqO-NIR2U/edit?usp=sharing"' DELIMITER ',' CSV HEADER;
+
