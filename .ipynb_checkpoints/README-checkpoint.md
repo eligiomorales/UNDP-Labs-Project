@@ -1,1 +1,3 @@
-# undp_labs_project
+### Project Information
+
+> UNDP’s Strategic Plan (2022 – 2025) sets out the ambitious objective **to increase access to clean and affordable energy for 500 million** people by speeding up investment in distributed renewable energy solutions, especially for those hardest to reach and in crisis context. While large grid and financial flows at scale are essential to reach this goal, our Discover and Deploy Solutions Mapping campaign will explore bottom-up, lead user, frugal and grassroots innovations as a contribution to the sustainable energy access moonshot. 
