@@ -1,7 +1,7 @@
 ### Background
 
-#### [Context](https://github.com/eligiomorales/UNDP-Labs-Project/blob/main/README.md"Context")
-#### [Data dictionary](https://github.com/eligiomorales/UNDP-Labs-Project/blob/main/README.md"Data dictionary")
+#### Context [Context](https://github.com/eligiomorales/UNDP-Labs-Project/blob/main/README.md "Context")
+#### Data dictionary [Data dictionary](https://github.com/eligiomorales/UNDP-Labs-Project/blob/main/README.md "Data dictionary")
 
 
 ### Project Information
