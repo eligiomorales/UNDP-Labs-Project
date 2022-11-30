@@ -2,7 +2,7 @@
 
 This dataset is derived from the collection of data from solutions mappers in different regions around the world. As part of a collaborative effort of **[UNDP Accelerator Labs](https://www.undp.org/acceleratorlabs)** and **[Viz for Social Good](https://www.vizforsocialgood.com/)**
 
-Mappers were given the possibility to fill in certain fields in their preferred language, which is why I translated some fields in order to facilitate analysis.
+Mappers were given the possibility to fill in certain fields in their preferred language, which is why some fields have been translated in order to facilitate analysis.
 
 To learn more, please visit this [link](https://www.vizforsocialgood.com/join-a-project/2022/9/15/undp-accelerator-labs-network)
 

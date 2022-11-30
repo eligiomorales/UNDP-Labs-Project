@@ -1,3 +1,7 @@
+/*
+
+Main table
+*/
 CREATE TABLE es_map (
 	id numeric,
     energy_source character varying(25),
@@ -49,10 +53,16 @@ CREATE TABLE es_map (
     
 COPY es_map FROM PROGRAM 'curl "https://docs.google.com/spreadsheets/d/1hNeQzmwFN6eUcFtdG3d7Mt9anhVlELYCNpmwKFTXQno/edit#gid=1770774880"' DELIMITER ',' CSV HEADER;
 
+
 CREATE TABLE rgb (
     regional_bureau character varying(20),
     country character varying(100)
 );
+
+/*
+As a complementary table to the main table, thematic_tags is created to facilitate individual reference to tags for each solution.
+*/
+
 
 CREATE TABLE IF NOT EXISTS thematic_tags as(
 
@@ -74,7 +84,12 @@ WHERE thematic_tags_4 is not null
 UNION
 SELECT id, thematic_tags_5
 FROM es_map
-WHERE thematic_tags_5 is not null);--create table relacionando el id de la solucion con todas las thematic tags
+WHERE thematic_tags_5 is not null);
+
+
+/*
+Similar to the sgd_tags case. As it facilitates individual references to sdgs for each solution.
+*/
 
 
 
@@ -98,7 +113,7 @@ WHERE sdg_tag_4 is not null
 UNION
 SELECT id, sdg_tag_5
 FROM es_map
-WHERE sdg_tag_5 is not null);--create table relacionando el id de la solucion con todas las sdg tags
+WHERE sdg_tag_5 is not null);
 
 
 
@@ -139,7 +154,12 @@ WHERE image_8 is not null
 UNION
 SELECT id, image_9
 FROM es_map
-WHERE image_9 is not null);--create table relacionando el id de la solucion con todas las sdg tags
+WHERE image_9 is not null);
+
+
+/*
+Finally, a table is created to reference the complementary images.
+*/
 
 
 CREATE TABLE IF NOT EXISTS link_img 
